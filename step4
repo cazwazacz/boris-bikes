@@ -1,0 +1,9 @@
+Type of error: NameError
+
+Filepath of error: /Users/Allan/.rvm/rubies/ruby-2.4.0/bin/irb:11:in `<main>'
+
+Line no.: 1
+
+Meaning of error: Raised when a given name is invalid or undefined.
+
+Fix it by defining the class before calling the new method on it.
