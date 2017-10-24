@@ -1,5 +1,9 @@
 require 'docking_station'
 
 describe DockingStation do
-  it { is_expected.to respond_to(:release_bike) }
+  it 'bike present and working' do
+    instance = DockingStation.new
+    expect(instance.release_bike).to eq true
+  end
+
 end
